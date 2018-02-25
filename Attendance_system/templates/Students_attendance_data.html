@@ -197,21 +197,12 @@ tr:first-child{
             {% endwith %}
         {% endif %}
 
-
-{#        <td>{{ f }}&nbsp;,&nbsp;&nbsp;({{ g }}%)</td>#}
-{#        <td>{{ h }}&nbsp;,&nbsp;&nbsp;({{ i }}%)</td>#}
-{#        <td>{{ j }}&nbsp;,&nbsp;&nbsp;({{ k }}%)</td>#}
-{#        <td>{{ l }}&nbsp;,&nbsp;&nbsp;({{ m }}%)</td>#}
-{#        <td>{{ n }}&nbsp;,&nbsp;&nbsp;({{ o }}%)</td>#}
-{#        <td>{{ p }}&nbsp;,&nbsp;&nbsp;({{ q }}%)</td>#}
-{#        <td>{{ r }}&nbsp;,&nbsp;&nbsp;({{ s }}%)</td>#}
     </tr>
 
     {% endfor %}
 
 </table>
 </div>
-
 <br />
 <br />
 <center><h2>CSE-1 (Group A-2)</h2></center>
@@ -375,6 +366,337 @@ tr:first-child{
 
 </table>
 </div>
+
+
+<br />
+<br />
+<center><h2>CSE-2 (Group A-3)</h2></center>
+<div style="overflow-x:auto;">
+<table>
+    <tr>
+        <th>Subjects:</th>
+        <th>WT</th>
+        <th>SE</th>
+        <th>MC</th>
+        <th>BIE</th>
+        <th>EIT</th>
+        <th>CD</th>
+        <th>WT_LAB</th>
+        <th>SE_LAB</th>
+        <th>EIT_LAB</th>
+    </tr>
+    {% for i,j,k,l,m,n,o,p,q in a3_total %}
+        <tr>
+        <th>Total:</th>
+        <td>{{ i }}</td>
+        <td>{{ j }}</td>
+        <td>{{ k }}</td>
+        <td>{{ l }}</td>
+        <td>{{ m }}</td>
+        <td>{{ n }}</td>
+        <td>{{ o }}</td>
+        <td>{{ p }}</td>
+        <td>{{ q }}</td>
+    </tr>
+    {% endfor %}
+
+    {% for i,j,k,l,m,n,o,p,q in a3_req %}
+    <tr>
+        <th>Required:</th>
+        <td>{{ i }}</td>
+        <td>{{ j }}</td>
+        <td>{{ k }}</td>
+        <td>{{ l }}</td>
+        <td>{{ m }}</td>
+        <td>{{ n }}</td>
+        <td>{{ o }}</td>
+        <td>{{ p }}</td>
+        <td>{{ q }}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+
+    <tr>
+        <th>Students:</th>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    {% for a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s in a3_data %}
+
+        <tr>
+        <th>{{ a }}</th>
+        {% if c < 75 %}
+            {% with 'red' as color %}
+                <td style="color: {{ color }}">{{ b }}&nbsp;,&nbsp;&nbsp;({{ c }}%)</td>
+            {% endwith %}
+        {% elif c >= 75%}
+          {% with 'white' as color %}
+                <td style="color: {{ color }}">{{ b }}&nbsp;,&nbsp;&nbsp;({{ c }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if e < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ d }}&nbsp;,&nbsp;&nbsp;({{ e }}%)</td>
+            {% endwith %}
+        {% elif e >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ d }}&nbsp;,&nbsp;&nbsp;({{ e }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if g < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ f }}&nbsp;,&nbsp;&nbsp;({{ g }}%)</td>
+            {% endwith %}
+        {% elif g >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ f }}&nbsp;,&nbsp;&nbsp;({{ g }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if i < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ h }}&nbsp;,&nbsp;&nbsp;({{ i }}%)</td>
+            {% endwith %}
+        {% elif i >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ h }}&nbsp;,&nbsp;&nbsp;({{ i }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if k < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ j }}&nbsp;,&nbsp;&nbsp;({{ k }}%)</td>
+            {% endwith %}
+        {% elif k >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ j }}&nbsp;,&nbsp;&nbsp;({{ k }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if m < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ l }}&nbsp;,&nbsp;&nbsp;({{ m }}%)</td>
+            {% endwith %}
+        {% elif m >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ l }}&nbsp;,&nbsp;&nbsp;({{ m }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if o < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ n }}&nbsp;,&nbsp;&nbsp;({{ o }}%)</td>
+            {% endwith %}
+        {% elif o >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ n }}&nbsp;,&nbsp;&nbsp;({{ o }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if q < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ p }}&nbsp;,&nbsp;&nbsp;({{ q }}%)</td>
+            {% endwith %}
+        {% elif q >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ p }}&nbsp;,&nbsp;&nbsp;({{ q }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if s < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ r }}&nbsp;,&nbsp;&nbsp;({{ s }}%)</td>
+            {% endwith %}
+        {% elif s >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ r }}&nbsp;,&nbsp;&nbsp;({{ s }}%)</td>
+            {% endwith %}
+        {% endif %}
+    </tr>
+
+
+    {% endfor %}
+
+</table>
+</div>
+
+<br />
+<br />
+<center><h2>CSE-2 (Group A-4)</h2></center>
+<div style="overflow-x:auto;">
+<table>
+    <tr>
+        <th>Subjects:</th>
+        <th>WT</th>
+        <th>SE</th>
+        <th>MC</th>
+        <th>BIE</th>
+        <th>EIT</th>
+        <th>CD</th>
+        <th>WT_LAB</th>
+        <th>SE_LAB</th>
+        <th>EIT_LAB</th>
+    </tr>
+    {% for i,j,k,l,m,n,o,p,q in a4_total %}
+        <tr>
+        <th>Total:</th>
+        <td>{{ i }}</td>
+        <td>{{ j }}</td>
+        <td>{{ k }}</td>
+        <td>{{ l }}</td>
+        <td>{{ m }}</td>
+        <td>{{ n }}</td>
+        <td>{{ o }}</td>
+        <td>{{ p }}</td>
+        <td>{{ q }}</td>
+    </tr>
+    {% endfor %}
+
+    {% for i,j,k,l,m,n,o,p,q in a4_req %}
+    <tr>
+        <th>Required:</th>
+        <td>{{ i }}</td>
+        <td>{{ j }}</td>
+        <td>{{ k }}</td>
+        <td>{{ l }}</td>
+        <td>{{ m }}</td>
+        <td>{{ n }}</td>
+        <td>{{ o }}</td>
+        <td>{{ p }}</td>
+        <td>{{ q }}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+
+    <tr>
+        <th>Students:</th>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    {% for a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s in a4_data %}
+
+        <tr>
+        <th>{{ a }}</th>
+        {% if c < 75 %}
+            {% with 'red' as color %}
+                <td style="color: {{ color }}">{{ b }}&nbsp;,&nbsp;&nbsp;({{ c }}%)</td>
+            {% endwith %}
+        {% elif c >= 75%}
+          {% with 'white' as color %}
+                <td style="color: {{ color }}">{{ b }}&nbsp;,&nbsp;&nbsp;({{ c }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if e < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ d }}&nbsp;,&nbsp;&nbsp;({{ e }}%)</td>
+            {% endwith %}
+        {% elif e >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ d }}&nbsp;,&nbsp;&nbsp;({{ e }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if g < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ f }}&nbsp;,&nbsp;&nbsp;({{ g }}%)</td>
+            {% endwith %}
+        {% elif g >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ f }}&nbsp;,&nbsp;&nbsp;({{ g }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if i < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ h }}&nbsp;,&nbsp;&nbsp;({{ i }}%)</td>
+            {% endwith %}
+        {% elif i >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ h }}&nbsp;,&nbsp;&nbsp;({{ i }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if k < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ j }}&nbsp;,&nbsp;&nbsp;({{ k }}%)</td>
+            {% endwith %}
+        {% elif k >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ j }}&nbsp;,&nbsp;&nbsp;({{ k }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if m < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ l }}&nbsp;,&nbsp;&nbsp;({{ m }}%)</td>
+            {% endwith %}
+        {% elif m >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ l }}&nbsp;,&nbsp;&nbsp;({{ m }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if o < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ n }}&nbsp;,&nbsp;&nbsp;({{ o }}%)</td>
+            {% endwith %}
+        {% elif o >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ n }}&nbsp;,&nbsp;&nbsp;({{ o }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if q < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ p }}&nbsp;,&nbsp;&nbsp;({{ q }}%)</td>
+            {% endwith %}
+        {% elif q >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ p }}&nbsp;,&nbsp;&nbsp;({{ q }}%)</td>
+            {% endwith %}
+        {% endif %}
+        {% if s < 75 %}
+            {% with 'red' as color %}
+            <td style="color: {{ color }}">{{ r }}&nbsp;,&nbsp;&nbsp;({{ s }}%)</td>
+            {% endwith %}
+        {% elif s >= 75 %}
+            {% with 'white' as color %}
+            <td style="color: {{ color }}">{{ r }}&nbsp;,&nbsp;&nbsp;({{ s }}%)</td>
+            {% endwith %}
+        {% endif %}
+    </tr>
+
+
+    {% endfor %}
+
+</table>
+</div>
+<br/>
+<br/>
 {#<center><button id="button">Download as PDF</button></center>#}
 </body>
 <script>

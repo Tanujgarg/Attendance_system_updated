@@ -28,21 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dashboard.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/Dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Database.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Database.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cse/Files/Library/Data/Database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5236">
-              <caret line="268" column="0" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+            <state relative-caret-position="1034">
+              <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="12" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -50,31 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cse/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1957">
-              <caret line="106" column="45" lean-forward="false" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Form_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cse/Files/Form_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="38" column="82" lean-forward="false" selection-start-line="38" selection-start-column="81" selection-end-line="38" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cse/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="181" column="74" lean-forward="false" selection-start-line="181" selection-start-column="74" selection-end-line="181" selection-end-column="74" />
+            <state relative-caret-position="512">
+              <caret line="670" column="95" lean-forward="false" selection-start-line="670" selection-start-column="95" selection-end-line="670" selection-end-column="95" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -85,28 +55,9 @@
       <file leaf-file-name="Students_attendance_data.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Students_attendance_data.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <marker date="1519563250000" expanded="false" signature="6183:6189" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6190:6196" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6196:6202" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6241:6247" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6248:6254" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6254:6260" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6299:6305" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6306:6312" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6312:6318" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6357:6363" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6364:6370" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6370:6376" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6415:6421" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6422:6428" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6428:6434" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6473:6479" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6480:6486" ph=" " />
-                <marker date="1519563250000" expanded="false" signature="6486:6492" ph=" " />
-              </folding>
+            <state relative-caret-position="3738">
+              <caret line="482" column="37" lean-forward="true" selection-start-line="482" selection-start-column="37" selection-end-line="482" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,11 +101,11 @@
         <option value="$PROJECT_DIR$/templates/Error.html" />
         <option value="$PROJECT_DIR$/templates/Feedback.html" />
         <option value="$PROJECT_DIR$/cse/Files/Library/Data/Database.py" />
-        <option value="$PROJECT_DIR$/templates/Students_attendance_data.html" />
         <option value="$PROJECT_DIR$/cse/Files/Form_data.py" />
         <option value="$PROJECT_DIR$/templates/section.html" />
-        <option value="$PROJECT_DIR$/cse/views.py" />
         <option value="$PROJECT_DIR$/templates/Dashboard.html" />
+        <option value="$PROJECT_DIR$/cse/views.py" />
+        <option value="$PROJECT_DIR$/templates/Students_attendance_data.html" />
       </list>
     </option>
   </component>
@@ -747,51 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Attendance_record/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cse/Files/Library/Data/Database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5236">
-          <caret line="268" column="0" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Students_attendance_data.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <marker date="1519563250000" expanded="false" signature="6183:6189" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6190:6196" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6196:6202" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6241:6247" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6248:6254" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6254:6260" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6299:6305" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6306:6312" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6312:6318" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6357:6363" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6364:6370" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6370:6376" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6415:6421" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6422:6428" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6428:6434" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6473:6479" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6480:6486" ph=" " />
-            <marker date="1519563250000" expanded="false" signature="6486:6492" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/section.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -799,14 +705,6 @@
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cse/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="106" column="45" lean-forward="false" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,21 +716,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Attendance_record/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cse/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="106" column="45" lean-forward="false" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cse/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="181" column="74" lean-forward="false" selection-start-line="181" selection-start-column="74" selection-end-line="181" selection-end-column="74" />
+        <state relative-caret-position="512">
+          <caret line="670" column="95" lean-forward="false" selection-start-line="670" selection-start-column="95" selection-end-line="670" selection-end-column="95" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Dashboard.html">
+    <entry file="file://$PROJECT_DIR$/templates/Students_attendance_data.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="3738">
+          <caret line="482" column="37" lean-forward="true" selection-start-line="482" selection-start-column="37" selection-end-line="482" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cse/Files/Library/Data/Database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="12" lean-forward="false" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

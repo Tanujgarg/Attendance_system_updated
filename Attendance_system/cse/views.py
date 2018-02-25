@@ -650,13 +650,25 @@ def dept(request):
             a2_req = req_lectures(6315037)
             a1_total = total_lectures(6315010)
             a2_total = total_lectures(6315037)
+            a3_lecture_data = present_and_avg(A3_roll)
+            a4_lecture_data = present_and_avg(A4_roll)
+            a3_req = req_lectures(6315008)
+            a4_req = req_lectures(6315659)
+            a3_total = total_lectures(6315008)
+            a4_total = total_lectures(6315659)
             return render(request, 'Students_attendance_data.html', {'a1_total': a1_total,
                                                                      'a2_total': a2_total,
                                                                      'a1_req': a1_req,
                                                                      'a2_req': a2_req,
                                                                      'a1_data': a1_lecture_data,
                                                                      'a2_data': a2_lecture_data,
-                                                                     'date': auth_date})
+                                                                     'date': auth_date,
+                                                                     'a3_total': a3_total,
+                                                                     'a4_total': a4_total,
+                                                                     'a3_req': a3_req,
+                                                                     'a4_req': a4_req,
+                                                                     'a3_data': a3_lecture_data,
+                                                                     'a4_data': a4_lecture_data})
         else:
             return render(request, 'Error.html', {'login_error': True})
     else:
