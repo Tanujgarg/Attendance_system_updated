@@ -263,7 +263,7 @@ def present_and_avg(data):
         se_lab_avg1.append(obj1.se_lab_avg)
         eit_lab_avg1.append(obj1.eit_lab_avg)
         # print(wt)
-    return list(zip(A1_roll, wt1, wt_avg1, se1, se_avg1, mc1, mc_avg1, bie1, bie_avg1, eit1, eit_avg1, cd1,
+    return list(zip(data, wt1, wt_avg1, se1, se_avg1, mc1, mc_avg1, bie1, bie_avg1, eit1, eit_avg1, cd1,
                     cd_avg1, wt_lab1, wt_lab_avg1, se_lab1, se_lab_avg1, eit_lab1, eit_lab_avg1))
 
 
