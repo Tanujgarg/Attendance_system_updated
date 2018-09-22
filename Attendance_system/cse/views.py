@@ -10,10 +10,8 @@ subject = ''
 is_lab = False
 
 
-
-
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'abc.html')
 
 
 def teachers_login(request):
